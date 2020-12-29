@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="ltr"
+        tools:context=".ui.fragments.personinfo.PersonInfoFragment">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ly"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imv_person"
+            />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="135dp"
+           android:id="@+id/ly"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:layout_alignParentBottom="true">
+
+           <Button
+               android:layout_width="125dp"
+               android:layout_height="65dp"
+               android:layout_margin="6dp"
+               android:id="@+id/btn_back"
+               android:text="@string/back"/>
+
+           <Button
+               android:layout_width="125dp"
+               android:layout_height="65dp"
+               android:id="@+id/btn_save_img"
+               android:layout_margin="6dp"
+               android:text="@string/save_image"/>
+
+       </LinearLayout>
+
+    </RelativeLayout>
+</layout>

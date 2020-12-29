@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EbtikarTaskAF</string>
+    <string name="save_image">Save Image</string>
+    <string name="back">back</string>
+    <string name="write_storage_permission_request_message">Write to External Device Permission is Required</string>
+    <string name="person_info">Person Info</string>
+    <string name="home">Home</string>
+</resources>
